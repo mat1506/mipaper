@@ -19,3 +19,5 @@ Imports: bookdown,
     here
 Suggests: devtools,
     git2r
+URL: https://github.com/mat1506/mipaper
+BugReports: https://github.com/mat1506/mipaper/issues
