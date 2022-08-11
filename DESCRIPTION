@@ -1,0 +1,21 @@
+Package: mipaper
+Title: Mi primer paper
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Matias",
+           family = "Frugone-Álvarez",
+           role = c("aut", "cre"),
+           email = "matutefrugone@gmail.com")
+Description: This repository contains the research compendium of the 
+    partial reproduction of Frugonw Science 2022;21:1255–1267. 
+    The compendium contains all data, code, and text associated with this
+License: MIT + file LICENSE
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: bookdown,
+    here
+Suggests: devtools,
+    git2r
