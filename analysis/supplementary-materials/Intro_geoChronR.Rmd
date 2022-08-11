@@ -1,0 +1,41 @@
+---
+title: "DeltaR con geoChronR"
+author: "Matia Frugone-Álvarez"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction a geoChronR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+  
+# Introduction
+  
+Almost always, your geoChronR work flow will start with loading in a valid LiPD file. So you'll want both the geoChronR and lipdR libraries
+
+  
+```{r, results = FALSE, warning = FALSE, message= FALSE }
+
+
+```
+
+
+## Load in another dataset
+
+Let's compare these data to the deltaR shell middens.
+
+```{r, message=FALSE}
+
+dr <- lipdR::readLipd("/home/mat15062/Downloads/Lipd_data/")
+
+dr2 <- lipdR::readLipd("/home/mat15062/Downloads/Lipd_data/DeltaR_SA/")
+
+```
+
